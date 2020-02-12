@@ -30,7 +30,7 @@ import { CartComponent } from './cart-component/cart-component.component';
     CartComponent,
   ],
   bootstrap: [ AppComponent ],
-  providers: [CartService]
+  providers: [ CartService ]
 })
 export class AppModule { }
 
