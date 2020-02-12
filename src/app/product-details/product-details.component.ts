@@ -11,7 +11,7 @@ import { CartService } from '../cart.service';
   styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent implements OnInit {
-product;
+  product;
 
   constructor(private route: ActivatedRoute,
               private cartService: CartService) 
